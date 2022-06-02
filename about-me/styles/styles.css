@@ -1,0 +1,80 @@
+body {
+    margin: 0;
+    background-color: rgb(221, 221, 221);
+    font-family: 'Asul', sans-serif;
+    font-weight: normal;
+}
+
+header{
+    padding-top: 172px;
+    background-image: url(./../../Img/banner.png);
+    position: sticky;
+    top: -25%;
+}
+
+img.gato-cool {
+    height: 90px;
+    width: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: 20px;
+    margin-bottom: -59px;    
+}
+
+h1{
+    background-color: rgb(114, 98, 98);
+    text-align: center;
+    color: rgb(233, 233, 233);
+    font-family: 'Asul', sans-serif;
+    font-weight: bold;
+    margin-bottom: 0%;
+    
+
+    /*contorno de las letras*/
+    text-shadow: 2px 0 0px #726262, 
+                -2px 0 0 rgb(114 98 98), 
+                0 2px 0 rgb(114 98 98), 
+                0 -2px 0 rgb(114 98 98), 
+                1px 1px rgb(114 98 98), 
+                -1px -1px 0 rgb(114 98 98), 
+                1px -1px 0 rgb(114 98 98), 
+                -1px 1px 0 rgb(114 98 98);
+}
+
+h6 {
+    text-align: center;
+    font-size: 15px;
+    margin-top: 0%;
+    color:rgb(114, 98, 98);
+    font-weight: 900;
+    border-bottom-style: solid;
+    border-color: rgb(250, 250, 255); /*ghostwhite*/
+}
+
+h3{
+    background-color: rgb(201, 187, 187);
+    font-family: 'Asul', sans-serif;
+    font-weight: bold;
+    padding: 6px;
+}
+
+h3 span{
+    margin-left: 8px;
+}
+
+h3 > a:link, a:active, a:hover,a:visited{
+    text-decoration: none;
+    color: inherit;
+}
+
+h6 > a:link, a:active, a:hover, a:visited{
+    text-decoration: none;
+}
+
+h6 > a:hover{
+    color:black;
+}
+
+p{
+    margin-left: 40px;
+}
