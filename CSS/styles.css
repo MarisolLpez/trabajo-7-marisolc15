@@ -1,6 +1,8 @@
 body {
     margin: 0;
     background-color: rgb(221, 221, 221);
+    font-family: 'Asul', sans-serif;
+    font-weight: normal;
 }
 
 header{
@@ -16,19 +18,39 @@ header{
 }
 
 h1{
-    background-color: rgb(187, 187, 187);
+    background-color: rgb(114, 98, 98);
     text-align: center;
+    color: rgb(233, 233, 233);
+    font-family: 'Asul', sans-serif;
+    font-weight: bold;
+    margin-bottom: 0%;
+}
+
+h6{
+    text-align: center;
+    font-size: 15px;
+    margin-top: 0%;
+    color:rgb(114, 98, 98);
+    font-weight: 900;
+}
+
+/*Elimina el subrayado del link*/
+header a:link, a:active, a:hover{
+    text-decoration: none;
 }
 
 h3{
     text-decoration: underline;
     text-transform: uppercase;
-    background-color: rgb(212, 212, 212);
+    background-color: rgb(201, 187, 187);
+    font-family: 'Asul', sans-serif;
+    font-weight: bold;
+    padding: 6px;
 }
 
 ul{
     list-style: none;
-    font-style: italic;
+    font-style: oblique;
 }
 
 .style-li {
@@ -42,12 +64,12 @@ dl{
 }
 
 dt{
-    font-style: italic;
+    font-style: oblique;
     margin-left: 8px;
 }
 
 footer{
-    background-color: rgb(187, 187, 187);
+    background-color: rgb(114, 98, 98);
     text-align: center;
     height: 40px;
     margin-top: 20px;
